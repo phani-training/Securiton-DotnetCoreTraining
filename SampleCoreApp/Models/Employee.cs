@@ -4,7 +4,11 @@ namespace SampleCoreApp
 {
     class Employee
     {
-        public int EmpId { get; set; }
+        private static int no = 0;
+        public Employee(){
+            ++no;
+        }
+        public int EmpId => no;
         public string? EmpName { get; set; } 
         public string? EmpAddress { get; set; }
         public double EmpSalary { get; set; }
