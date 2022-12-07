@@ -1,0 +1,8 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~EMPLOYEE MANAGER SYSTEM~~~~~~~~~~~~~~~
+TO ADD NEW EMPLOYEE--------->PRESS 1
+TO DELETE AN EMPLOYEE------->PRESS 2
+TO UPDATE EMPLOYEE---------->PRESS 3
+TO FIND EMPLOYEE------------>PRESS 4
+TO DISPLAY ALL-------------->PRESS 5
+PS: ANY OTHER KEY IS CONSIDERED AS EXIT!!!
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,0 +1,15 @@
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\bin\Debug\net7.0\SampleCoreApp.exe
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\bin\Debug\net7.0\SampleCoreApp.deps.json
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\bin\Debug\net7.0\SampleCoreApp.runtimeconfig.json
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\bin\Debug\net7.0\SampleCoreApp.dll
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\bin\Debug\net7.0\SampleCoreApp.pdb
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\obj\Debug\net7.0\SampleCoreApp.csproj.AssemblyReference.cache
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\obj\Debug\net7.0\SampleCoreApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\obj\Debug\net7.0\SampleCoreApp.AssemblyInfoInputs.cache
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\obj\Debug\net7.0\SampleCoreApp.AssemblyInfo.cs
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\obj\Debug\net7.0\SampleCoreApp.csproj.CoreCompileInputs.cache
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\obj\Debug\net7.0\SampleCoreApp.dll
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\obj\Debug\net7.0\refint\SampleCoreApp.dll
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\obj\Debug\net7.0\SampleCoreApp.pdb
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\obj\Debug\net7.0\SampleCoreApp.genruntimeconfig.cache
+C:\Trainings\Securiton-DotnetCore\SampleCoreApp\obj\Debug\net7.0\ref\SampleCoreApp.dll
