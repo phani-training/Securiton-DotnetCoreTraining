@@ -25,3 +25,20 @@ dotnet new console -n SampleCoreApp
     - Microsoft.EntityFrameworkCore
     - Microsoft.EntityFrameworkCore.SqlServer
     - Microsoft.EntityFrameworkCore.Tools.
+2. Implement the classs for the Entity and DBContext, refer the CodeFirstApproach.cs file. 
+3. Open the Package Manager Console and run the following commands:
+	- add-migration migrationName-version
+	- update-database
+4. View the Server explorer to see the Generated database and Tables. 
+5. Any modifications U do on the classes, U should run the above commands to get the newer versions of the Context Object.
+
+### How to work using Dapper?
+1. Dapper is a framework with Extension methods for IDBConnection interface to perform CRUD Operations on the databases in light weight manner. Unlike EF or any other ORMs, U dont need a heavy infra. It is called as Micro-ORM Framework.
+2. It cannot be used for CODE-FIRST Approach.
+3. U should create Entity classes based on the database Table design including relations. Dapper API will help in converting the raw data of Tables to Collection objects thru which you could perform the CRUD Operations. 
+4. Steps on using Dapper API
+    - Reference the Dapper Nuget Package in your project
+    - Create a SqlConnection object with appropriate Connection String. 
+    - Use the extension methods of the Dapper to perform your data related Operations
+    - Query based methods are used for SELECT statements.
+    - Execute Method is used for DELETE, UPDATE and INSERT Statements.
