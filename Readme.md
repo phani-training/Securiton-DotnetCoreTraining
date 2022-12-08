@@ -45,6 +45,8 @@ dotnet new console -n SampleCoreApp
         - In .NET 2.0, we got Anonymous methods where we could use delegate keyword to implement a method with no name and map to the delegate instance.
         - In .NET 3.0 and later, we got the Lambda Expression syntax where we dont use anonymous methods syntax, rather achieve the same using => Operator called as Lambda Operator or Arrow Operator  	
  - Using Extension methods.
+ 	- Extension methods are static methods. Its first parameter will be a this operator followed by the class instance that U want to extend this method. It can be followed by regular arguments required for the method.
+	- Functions are to be static. Extension methods are added to the object of the class, not to the class itself. So Runtime polymorphism and other Features of OOP are not applicable on these methods.
  - Using LINQ.
 ### ASP.NET Core Environment
 ### ASP.NET MVC Application. 
