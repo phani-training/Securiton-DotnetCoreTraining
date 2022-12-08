@@ -42,3 +42,4 @@ dotnet new console -n SampleCoreApp
     - Use the extension methods of the Dapper to perform your data related Operations
     - Query based methods are used for SELECT statements.
     - Execute Method is used for DELETE, UPDATE and INSERT Statements. It can also be used for DCL Operations. 
+    - For performing transactions for ACID properties, U can either use the ADO.NET SqlTransaction using SqlConnection's BeginTranscation API or U could add new Nuget Package called Dapper.Transaction that will have Extension methods for SqlTransaction Class. 
