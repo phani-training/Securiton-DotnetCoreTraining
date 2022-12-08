@@ -41,4 +41,4 @@ dotnet new console -n SampleCoreApp
     - Create a SqlConnection object with appropriate Connection String. 
     - Use the extension methods of the Dapper to perform your data related Operations
     - Query based methods are used for SELECT statements.
-    - Execute Method is used for DELETE, UPDATE and INSERT Statements.
+    - Execute Method is used for DELETE, UPDATE and INSERT Statements. It can also be used for DCL Operations. 
