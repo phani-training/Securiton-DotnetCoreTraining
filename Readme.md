@@ -30,7 +30,12 @@ dotnet new console -n SampleCoreApp
 	- add-migration migrationName-version
 	- update-database
 4. View the Server explorer to see the Generated database and Tables. 
-5. Any modifications U do on the classes, U should run the above commands to get the newer versions of the Context Object.
+
+### New Features of .NET Framework. 
+### ASP.NET Core Environment
+### ASP.NET MVC Application. 
+### Web API Development using .NET CORE.
+6. Any modifications U do on the classes, U should run the above commands to get the newer versions of the Context Object.
 
 ### How to work using Dapper?
 1. Dapper is a framework with Extension methods for IDBConnection interface to perform CRUD Operations on the databases in light weight manner. Unlike EF or any other ORMs, U dont need a heavy infra. It is called as Micro-ORM Framework.
