@@ -32,6 +32,20 @@ dotnet new console -n SampleCoreApp
 4. View the Server explorer to see the Generated database and Tables. 
 
 ### New Features of .NET Framework. 
+ - Using var keyword.
+ 	- We use var to define local variables. It is convinient way of declaring the variables. 
+        - U should assign the variable with a value before U move further. This assignment defines the data type of the var. 
+        - It is implicit typed variable => This variable will hold the type based on the value U assign it  during declaration. Hense forth, it will follow the norms of the typical data type of .NET. 
+        - var is convinient to be used in LINQ Expressions, Lamdba Expressions and Anonymous types which are all the new features introduced in .NET 3.0. 	 
+ - Using Lambda Expressions
+ 	- Delegate is a reference type in .NET that can be used to create reference variables to functions. 
+        - Using delegate keyword we declare a delegate with a specific Method signature.
+        - Func and Action are 2 important Generic delegates that can be used for Return Type Functions and void Functions respectively.
+        - Practically, Delegates are used in Event Handling, CallBack Functions, Multi Threading, Async Programming. 
+        - In .NET 2.0, we got Anonymous methods where we could use delegate keyword to implement a method with no name and map to the delegate instance.
+        - In .NET 3.0 and later, we got the Lambda Expression syntax where we dont use anonymous methods syntax, rather achieve the same using => Operator called as Lambda Operator or Arrow Operator  	
+ - Using Extension methods.
+ - Using LINQ.
 ### ASP.NET Core Environment
 ### ASP.NET MVC Application. 
 ### Web API Development using .NET CORE.
