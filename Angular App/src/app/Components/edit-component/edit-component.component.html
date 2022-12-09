@@ -1,0 +1,16 @@
+<h2>Details of the Selected Book</h2>
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <input type="text" class="form-control my-3" [(ngModel)]="foundBook.title"/>
+            <input type="text" class="form-control my-3" [(ngModel)]="foundBook.isbn"/>
+            <input type="text" class="form-control my-3" [(ngModel)]="foundBook.year"/>
+            <input type="text" class="form-control my-3" [(ngModel)]="foundBook.publishedDate"/>
+            <input type="text" class="form-control my-3" [(ngModel)]="foundBook.price"/>
+        </div>
+    </div>
+    <div class="row">
+        <button type="button">Update</button>
+    </div>
+</div>
