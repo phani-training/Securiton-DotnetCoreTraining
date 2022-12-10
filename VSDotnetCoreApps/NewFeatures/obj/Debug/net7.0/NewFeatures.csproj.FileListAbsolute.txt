@@ -1,0 +1,15 @@
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\bin\Debug\net7.0\NewFeatures.exe
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\bin\Debug\net7.0\NewFeatures.deps.json
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\bin\Debug\net7.0\NewFeatures.runtimeconfig.json
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\bin\Debug\net7.0\NewFeatures.dll
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\bin\Debug\net7.0\NewFeatures.pdb
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\obj\Debug\net7.0\NewFeatures.csproj.AssemblyReference.cache
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\obj\Debug\net7.0\NewFeatures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\obj\Debug\net7.0\NewFeatures.AssemblyInfoInputs.cache
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\obj\Debug\net7.0\NewFeatures.AssemblyInfo.cs
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\obj\Debug\net7.0\NewFeatures.csproj.CoreCompileInputs.cache
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\obj\Debug\net7.0\NewFeatures.dll
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\obj\Debug\net7.0\refint\NewFeatures.dll
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\obj\Debug\net7.0\NewFeatures.pdb
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\obj\Debug\net7.0\NewFeatures.genruntimeconfig.cache
+C:\Trainings\Securiton-DotnetCore\VSDotnetCoreApps\NewFeatures\obj\Debug\net7.0\ref\NewFeatures.dll
