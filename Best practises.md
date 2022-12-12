@@ -1,63 +1,63 @@
-API Implementation Best practises:
+# API Implementation Best practises:
 https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-implementation
 
-Common Challenges That C# Guidelines Can Address:
+### Common Challenges That C# Guidelines Can Address:
 As a beginner, you can expect to face some difficulties while working on programs using C#. Below are some of the common issues that C# newcomers frequently face, but they can all be overcome if you adhere to the program’s best practices. By noting these potential problems and following C# guidelines, you will be taking an important step toward avoiding them.
 
-Using a Reference Like a Value
+#### Using a Reference Like a Value
 In C#, the programmer who writes the object is the only one who can decide on the state of the values. That is, they can determine if the values assigned to variables are simply values or if they are references to existing objects. This is one of the most common mistakes new C# programmers make.
 
-Using “Var” Needlessly
+#### Using “Var” Needlessly
 “Var” is very useful when it comes to dealing with unknown data types or an unexpected return of data. However, it is bad practice to overuse it. It is easy to keep using “var” in an attempt to save time, but it will negatively affect your code readability and will make it difficult for other programmers to use or maintain the code you’ve written.
 
-Memory Leaks
+#### Memory Leaks
 It is normal to have memory or resource leaks in a program, which is why C# has a built-in method to dispose of these objects that are no longer in use. It is designed so that you only have to set or call an object in order to dispose of it. This helps to prevent memory leaks.
 
-Using Iterative Statements to Manipulate Collections
+#### Using Iterative Statements to Manipulate Collections
 Language-Integrated Query (LINQ) is used to manipulate and query collections, making it almost unnecessary for you to use iterative statements. So, if you get to the point of using iterative statements in your code, you have missed your chance to use LINQ.
 
-Using Public Class Variables Instead of Properties
+#### Using Public Class Variables Instead of Properties
 You should avoid using public class variables instead of properties because you can control who sets a property with object-oriented programming properties, but you lose that control if you use public class variables.
 
-Top 10 C# Best Practices and Guidelines:
-Use the Right Naming Conventions
+## Top 10 C# Best Practices and Guidelines:
+####  Use the Right Naming Conventions
 Naming conventions show consistency in your code, so it’s important to use the right ones. C# is a case-sensitive programming language, with three naming conventions that are generally used: camel case convention, pascal case convention, and Hungarian case convention. Pascal case convention is when the first character of all words is uppercase and the others are lowercase, for example, PascalCaseConvention. Camel case convention is when the first character of all words is uppercase except the first word, as in, camelCaseConvention.
 
-Choose Between Value Types and Reference Types
+#### Choose Between Value Types and Reference Types
 When working on a C# program, you need to decide what type you want to use: value or reference types. Value types are commonly used when storing data, while reference types are used to create an instance of your type when defining the behavior. Reference types are polymorphic, while value types are great for memory use.
 Value type variables are used to keep the original copy of a variable and to protect it from any unexpected changes, while reference types change the variable completely.
 
-Use Properties Instead of Public Variables
+#### Use Properties Instead of Public Variables
 Using properties instead of public variables keeps your code contained in an OOP environment and makes data validation easier. With properties, you can utilize getters and setters to prevent the user from directly accessing the member variables. If you explicitly restrict setting the values, you will be protecting your data from accidental changes.
 
-Don’t Reinvent the Wheel
+#### Don’t Reinvent the Wheel
 It is possible to create your entire coding library from scratch, but it likely isn’t the best option. You can simply use a tested and certified C# coding library. There are several libraries out there that will be useful to you as a beginning and will help you to prevent errors.
 
-Establish Code Conventions
+#### Establish Code Conventions
 The minute you begin to work on C# projects , you will inevitably have a code style convention. This is because you will have already decided what format indentation to use, your preferred syntax, and the use of “var.” It is good to establish a code style because it ensures consistency and readability.
 
 The best option is to automate your decisions and use a compiler or formatting tool to ensure that the decisions are enforced.
 
-Use Prefix Interfaces with Letter ‘i’
+#### Use Prefix Interfaces with Letter ‘i’
 The main reason that developers use the prefix “i” is that this piece of code is commonly used by C# developers, so if you use it, other developers will be able to read your code. Another reason to prefix interfaces with “i” is that the solution explorer in Visual Studio won’t have to distinguish between classes and interfaces.
 
 So, the letter “i” is the best way to determine whether a file represents a class or an interface.
 
-Use Nullable Data Types
+#### Use Nullable Data Types
 C# allows you to store as null integer values, double, or boolean variables in certain situations. All you have to do is use the modifier “?” immediately after the type. This is a good option because the standard declaration doesn’t typically allow the use of null stored as a value. This will mostly come up when used with boolean properties.
 
-Runtime Constants are the Preferred Constants
+#### Runtime Constants are the Preferred Constants
 Runtime constants, denoted by the keyword “readonly,” are analyzed while the program is running. Compile-time constants are static values that are evaluated during compilation and are represented with the keyword “const.” Their value will not change each time the source code is executed. Because compile-time constants cannot be changed, they must be initialized when they are declared.
 On the other hand, runtime constants can be altered at any point during the initialization process and can be set in the constructor. As a result, it is best to use runtime constants when writing reliable code and compile-time constants if you’re in a hurry.
 
-Use Conditional Attributes
+#### Use Conditional Attributes
 It’s a good idea to use the #if or #endif block to perform specific actions for the debug version of your code. However, there are some disadvantages, and you could end up with a bug in your code. This is where conditional attributes come into play. Conditional attributes can help you avoid the pitfalls of #if and #endif statements. You can use these attributes by putting your code in a method and setting the conditional attribute to the DEBUG string. The method will be called when your application is in debug mode but not in all cases.
 
-Only Catch Exceptions that You can Handle
+#### Only Catch Exceptions that You can Handle
 Using the generic exception class to catch any exception will result in a lousy application with poor system performance. You should only catch what you expect and order it in accordance. If you want, you can add the generic exception at the end to catch any other unknown exceptions. This will make it easy for you to handle any potential problem.
 
 
-----------------------------------Improved C# Best Coding Practises-------------------------------------
+## Improved C# Best Coding Practises:
 1. Make sure that there shouldn’t be any project warnings, treat warning as errors
 
 2. It will be much better if Code Analysis is performed on a project (with all Microsoft Rules enabled) and then remove the warnings.
