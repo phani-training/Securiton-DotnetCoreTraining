@@ -221,3 +221,77 @@ https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6
 https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7
 
 https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8
+
+
+###  Securing Web Apps:
+Web APIs are tools that simplify the coding process and enable developers to access the information from outside sources into the application they build.
+
+An example of a web API is a travel service app, which utilizes an API to get information from hotels, tour planners, airlines, and other companies.
+
+APIs make it possible for developers to use a wealth of data available that they would not be able to access otherwise. They also benefit providers to make the information available to developers, usually for a fee. Ultimately, APIs are beneficial to consumers, who need data from an outside or third-party source in their interactive and user-friendly apps.
+
+#### Why is API Security Important?
+Web APIs are the backbone of an organization’s database. The downside of publicly available APIs is that they are risk factors to the API providers. APIs are the tools and interfaces that let third-party outsiders provide access to data through an endpoint – which is basically a server along with its database access.
+
+Organizations employ access control mechanisms like authenticating the logged-in users, but many websites provide weak access control and in some cases, access control at all. With the advancement of APIs in the development of modern apps, cyber-crimes are also on the rise. In fact, it is not just the data that can be compromised, but the infrastructure as well. If an intruder succeeds in getting access to your data using one kind of attack then he may incur other types of attacks to get a full hold of your organization’s sensitive information.
+
+Some well-known and large companies – including Google, Facebook, T-Mobile, Verizon, and others – have been victims of data breaches as a result of API attacks. It is therefore important for all organizations, whether large or small, to make their APIs secure, particularly those which are available publicly.
+
+####  What are Web API Vulnerabilities?
+Below is a list of some of the most common web API vulnerabilities:
+
+1. Cross-site scripting (XSS): A type of injection in which an attacker inserts some malicious data into a web application.
+2. Denial of Service: This kind of injection occurs when an attacker overloads a network, system, or web server with a higher amount of traffic than it can handle with the aim to make the system unavailable for the intended users.
+3. Injection: Occurs when an attacker is able to insert some malicious data into a system, especially where a user inputs their confidential information such as passwords or credit card information.
+For example, a typical SQL injection in which an intruder injects some code to gain access to the SQL database.
+4. Man–in–the–Middle: A type of attack in which the attacker intercepts the data traffic and acts as an invisible proxy between the two entities (sender and receiver). It can intercept between a client application and an API or between an API and API endpoints.
+Credential stuffing: This attack occurs when an attacker is able to steal the credential information of an API and gain access to the unauthorized data.
+Now, let’s discuss some of the basic security best practices to secure Web APIs.
+
+### Web API Security Best Practices
+It is very necessary for organizations to adopt basic security best practices if they are thinking of making their API publicly accessible. Some of the most important security best practices a company should implement are mentioned below
+
+#### Data Encryption through TLS
+Security starts right from establishing an HTTP connection. For security concerns, it is recommended that the Web APIs should use the HTTPS (HTTP secure) endpoints to ensure that the data communication is encrypted using TLS/SSL (Transport Layer Security).
+
+By the way, SSL is a cryptographic protocol responsible for ensuring secure communication over a computer network.
+
+Some organizations do not prefer to use encrypted API payload data but that is fine if they are using a non-secure web service like a weather service. But for the APIs that are responsible for exchanging sensitive data, it is highly recommended to use some encryption mechanism to protect the data before transmitting over a network.
+
+#### Access Control
+Some Web APIs are used internally and only available to authenticated users like the Payment service API. In RESTful Web APIs, access control is handled by their endpoints.
+
+Below are some authentication methods used in RESTful Web APIs:
+
+1. HTTP Basic Authentication: This is the basic authentication method used without encryption. This is the simplest method and also the least secured. This method encodes the credentials in Base64 format and sends the data directly in HTTP headers without encryption.
+It is highly recommended to use this authentication along with the HTTPS connection since the data is transmitted as plain text.
+2. JSON Web Tokens (JWT): Access parameters and credential information is sent in the JSON format and the access token is signed cryptographically. JWT is the preferred way to perform access control over RESTful Web services.
+3. OAuth: It is feasible to use more advanced methods such as OAuth 2.0 or OpenID Connect for authentication and authorization. Auth2.0 is also used in Google APIs for authentication and authorization.
+4. Throttling and Quotas
+Throttling limits and quotas prevents the system from different cyber security attacks and reduces the overburden of processing so that the system operates effectively.
+
+Throttling prevents the system from overloaded requests. You can set the limit on the number of requests per second to protect the backend data bandwidth according to the server’s capability.
+
+Throttling limits also helps in preventing attacks from flooding the system with a large number of requests – also known as a DDOS (Distributed Denial of Service) attack.
+
+#### Sensitive Information in the API Communication
+API often makes use of confidential data such as usernames, passwords, session tokens, or API keys. If they are directly placed into the URL then these details might get saved to server logs and from there, intruders can easily access them.
+
+So it is highly recommended that any credential or sensitive information should be sent in the HTTP request headers (for GET requests) or the request body (for POST or PUT requests).
+
+#### Remove Unnecessary Information
+APIs contain lots of information related to business entities; it may contain user passwords, keys, tokens, credentials, or other information that is critical. If the APIs are made publicly available, then it becomes essential to remove such types of information from the API (response). But this step is sometimes overlooked and thus may give the hackers an opportunity to get access to the system with very little effort.
+
+It is recommended for the DevSecOps team to adopt some scanning tools to avoid these types of accidental exposure of sensitive data through APIs.
+
+#### Using Hashed Passwords
+Organizations should ensure that the passwords they use in an API should be hashed. There are various mechanisms you can use to secure the passwords, including: MD5, SHA256, SHA512, PBKDF2, etc.
+
+#### Data Validation
+As there is no user interaction while designing APIs, developers must ensure that the data should be validated and should be conformed to the API specifications in the very beginning before it reaches the application logic. If something is found that is not acceptable, it should be immediately rejected.
+
+To improve user experience, you can provide the error description in the response if any errors arise and may give some hint of the required data.
+
+#### Web API Security
+Web APIs are, no doubt, becoming the preferred way to create and consume web services in modern apps on the internet. Perhaps, some organizations are not able to grasp the risk of making their APIs available publicly and securing them; however, the process is quite straightforward and we encourage developers to do so.
+There are already so many organizations that are taking measures to combat cyber-security attacks like Denial of Service, malicious injection, cross-site scripting, and so forth. No matter how many APIs your organization chooses to make publicly available, the ultimate goal is to implement solid security mechanisms and manage them on an ongoing basis.
