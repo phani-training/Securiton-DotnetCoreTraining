@@ -222,6 +222,8 @@ https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-7
 
 https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-8
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ###  Securing Web Apps:
 Web APIs are tools that simplify the coding process and enable developers to access the information from outside sources into the application they build.
