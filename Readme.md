@@ -25,7 +25,7 @@ dotnet new console -n SampleCoreApp
     - Microsoft.EntityFrameworkCore
     - Microsoft.EntityFrameworkCore.SqlServer
     - Microsoft.EntityFrameworkCore.Tools.
-2. Implement the classs for the Entity and DBContext, refer the CodeFirstApproach.cs file. 
+2. Implement the classs for the Entity and DBContext, refer the CodeFirst.cs file. 
 3. Open the Package Manager Console and run the following commands:
 	- add-migration migrationName-version
 	- update-database
